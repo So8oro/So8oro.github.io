@@ -1,0 +1,15 @@
+title: 블로그
+description: 기록
+theme: minima
+
+# 사이트 URL
+url: https://So8oro.github.io
+
+# 상단 메뉴에 표시할 페이지
+header_pages:
+  - about.md
+
+# 글 목록/피드/SEO(깃허브 기본 플러그인)
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
