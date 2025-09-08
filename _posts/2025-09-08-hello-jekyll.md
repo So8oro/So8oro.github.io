@@ -16,7 +16,10 @@ tags: [모의투자, 실시간, 주식데이터, 병목해결]
 
 ## 문제 상황
 
-서비스의 메인 페이지에서는 **200개 종목을 거래량 기준으로 정렬하여 10초 단위로 업데이트**해야 합니다.  
+서비스의 메인 페이지에서는 **200개 종목을 거래량 기준으로 정렬하여 10초 단위로 업데이트**해야 합니다.
+
+![그림](/assets/img/20250908_토스증권.png)
+레퍼런스가 된 [토스증권](https://www.tossinvest.com/)의 메인 화면
 
 문제는 다음과 같았습니다.
 
@@ -77,16 +80,16 @@ def get_sorted_data():
 
 - **Redis와 캐싱 기본 이해**  
   - [Redis란](https://namji9507.tistory.com/entry/Database-Redis-%EB%A0%88%EB%94%94%EC%8A%A4Redis%EB%9E%80)  
-    Redis의 정의, 구조, 장단점 및 캐싱이나 실시간 분석에의 활용 사례가 잘 정리되어 있습니다.  
+    Redis의 정의, 구조, 장단점 및 캐싱이나 실시간 분석에의 활용 사례 
 
 - **실시간 분석에서 Redis 활용**  
   - [Redis 사용 사례 (Velog)](https://velog.io/%40qkrtkdwns3410/REDIS-%EC%82%AC%EC%9A%A9-%EC%82%AC%EB%A1%80)  
-    실시간 데이터 처리, 메시지 브로커, 레이트 리미팅 등 Redis의 다양한 활용 사례를 소개합니다.  
+    실시간 데이터 처리, 메시지 브로커, 레이트 리미팅 등 Redis의 다양한 활용 사례
 
 - **분산 시스템에서의 캐시 전략**  
   - [분산 시스템에서 로컬 캐시 활용하기 (카카오페이 기술블로그)](https://tech.kakaopay.com/post/local-caching-in-distributed-systems/)  
-    글로벌 캐시와 로컬 캐시의 차이, 캐시 정합성 고민, 메시징 시스템 사용 방안 등을 현실적인 사례로 설명합니다.  
+    글로벌 캐시와 로컬 캐시의 차이, 캐시 정합성 고민, 메시징 시스템 사용 방안 등
 
 - **캐싱 개념 및 시스템 설계 이해**  
   - [캐싱 - Bldev's Blog](https://bldev2473.github.io/architecture-software/caching)  
-    로컬 캐시, 글로벌 캐시, 분산 캐시 및 캐시 스탬피드(cache stampede) 같은 이슈를 조망하는 글입니다.  
+    로컬 캐시, 글로벌 캐시, 분산 캐시 및 캐시 스탬피드(cache stampede) 같은 이슈
